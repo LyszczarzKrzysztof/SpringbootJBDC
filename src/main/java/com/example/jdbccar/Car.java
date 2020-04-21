@@ -1,23 +1,23 @@
 package com.example.jdbccar;
 
 public class Car {
-    private int carId;
+    private Long carId;
     private String mark;
     private String model;
     private String color;
 
-    public Car(int carId, String mark, String model, String color) {
+    public Car(Long carId, String mark, String model, String color) {
         this.carId = carId;
         this.mark = mark;
         this.model = model;
         this.color = color;
     }
 
-    public int getCarId() {
+    public Long getCarId() {
         return carId;
     }
 
-    public void setCarId(int carId) {
+    public void setCarId(Long carId) {
         this.carId = carId;
     }
 
